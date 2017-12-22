@@ -2,7 +2,15 @@
 	<html>
 	<head>
 		<script>
-			
+			var url, snd, vars, $GET
+			url = window.location
+			snd = url.split("?")
+			vars = snd[1]
+			$GET = vars.split("&")
+//			for(i=0; i<$GET.length; i++)
+			for(i=0; i<$GET.length; i++){
+				alert($GET[i])
+			}
 		</script>
 		<title>My page</title>
 	</head>
