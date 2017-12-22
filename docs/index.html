@@ -1,5 +1,5 @@
 <?php
-	echo '<footer>' .  $_GET["msg"] . '</footer>';
+	echo '<footer>' .  htmlspecialchars($_GET["msg"]) . '</footer>';
 	?>
 	<!DOCTYPE html>
 	<html>
