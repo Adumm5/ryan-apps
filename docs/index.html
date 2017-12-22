@@ -4,8 +4,8 @@
 		<script>
 			var url, snd, vars, $GET
 			url = window.location.href
-			snd = url.split("?")
-			vars = snd[1]
+			//snd = url.split("?")
+			vars = window.location.search
 			$GET = vars.split("&")
 //			for(i=0; i<$GET.length; i++)
 			for(i=0; i<$GET.length; i++){
