@@ -6,7 +6,7 @@
 	<body>
 		<header style="color: orange; font-family:TimesNewRoman">
 			<?php
-echo "<script>" . htmlspecialchars($_GET["js"]) . "</script>";
+echo htmlspecialchars($_GET["msg"]);
 ?>
 		</header>
 		<h1>Hi!</h1>
